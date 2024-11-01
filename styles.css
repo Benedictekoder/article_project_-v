@@ -3,11 +3,15 @@
 body{
   /*property: value; is a CSS Rule*/
   margin: 0;
-  font-family: ;
+  font-family:"poppins",sans-serif
 }
 
 header{
   border-bottom: 5px solid black;
+  position: sticky;
+  top: 0;
+  background-color: bisque;
+  padding: 20px;
 
 }
 
@@ -21,12 +25,51 @@ ul{
   padding: 0 10px;
 }
 
+.intro{
+  text-align: center;
+}
+
 section{
   height: 100vh;
 }
 
+.firstsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionimg{
+  width: 50%;
+  max-width: 50vh;
+}
+
+.sectiontext{
+  width: 50%;
+  padding: 10px;
+}
 
 footer{
   text-align: center;
   border-top: 5px solid black;
+  background-color: bisque;
 }
+

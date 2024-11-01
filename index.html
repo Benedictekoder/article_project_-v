@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script type="module" src="script.js"></script>
   </head>
 
@@ -13,10 +16,18 @@
     <header>
      <nav>
       <ul>
-       <a><li>x</li></a>
-       <a><li>x</li></a>
-       <a><li>x</li></a>
-       <a><li>x</li></a>
+        <a href="#section1">
+          <li>Facts</li>
+        </a>
+        <a href="#section2">
+          <li>A. Muscaria</li>
+        </a>
+        <a href="#section3">
+          <li>A. Rubescens</li>
+        </a>
+        <a href="#section4">
+          <li>A. Virosa</li>
+        </a>
       </ul>
      </nav>
     </header>
@@ -29,48 +40,47 @@
       </div>
 
       <!--first section is displaced text to the left and image to the right-->
-      <section class="firstsection">
+      <section id="section1" class="firstsection">
         <div class="sectiontext">
          <h3>Facts</h3>
-         <ul>
-          <li>x</li>
-          <li>x</li>
-          <li>x</li>
-         </ul>
+          <p>The Amanita family consists of over 600 species. </p>
+          <p>Some are deadly poisonous if eaten, and others are edible.</p>
+          <p>Amanitas can be found across every continent except north and southpole.</p>
+         
         </div>
-        <img src="images/pantherina together.jpg" alt="two amanita pantherina leaning towards eachother">
+        <img class="sectionimg" src="images/pantherina together.jpg" alt="two amanita pantherina leaning towards eachother">
       </section>
 
       <!--second section is displayed image to the left and text to the right-->
-      <section class="secondsection">
-        <img src="images/fly agaric.jpg" alt="amanita muscaria mushroom in gras">
+      <section id="section2" class="secondsection">
+        <img class="sectionimg" src="images/fly agaric.jpg" alt="amanita muscaria mushroom in gras">
         <div class="sectiontext">
-         <h3>Amanita Muscaria</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ullam voluptas voluptatibus consectetur rem quod, accusantium corrupti aut, minima nam explicabo totam maxime assumenda sit dignissimos deleniti est suscipit cupiditate?</p>
+          <h3>Amanita Muscaria</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ullam voluptas voluptatibus consectetur rem quod, accusantium corrupti aut, minima nam explicabo totam maxime assumenda sit dignissimos deleniti est suscipit cupiditate?</p>
         </div> 
       </section>
 
       <!--third section is displayed text to the left and image to the right-->
-      <section>
-       <div class="thirdsection">
-        <h3>Amanita rubinscens</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam necessitatibus aut mollitia, eveniet facere odio temporibus excepturi sit commodi est explicabo dolores iste, eius dolor porro labore soluta expedita recusandae!</p>
-       </div>
-       <img src="images/best blusher.jpg" alt="amanita rubinscens in gras">
+      <section id="section3" class="thirdsection">
+        <div class="sectiontext">
+          <h3>Amanita rubescens</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam necessitatibus aut mollitia, eveniet facere odio temporibus excepturi sit commodi est explicabo dolores iste, eius dolor porro labore soluta expedita recusandae!</p>
+        </div>
+        <img class="sectionimg" src="images/best blusher.jpg" alt="amanita rubinscens in gras">
       </section>
 
       <!--fourth section is displayed image to the left and text to the right-->
-      <section class="fourthsection">
-       <img src="images/deathcap.jpg" alt="death cap mushroom">
-       <div class="fourthsection">
-        <h3>Amanita phalloides</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus labore aliquam consectetur. Laudantium, est ullam placeat, quidem ducimus enim ab reiciendis fugit consectetur quibusdam repellendus cum incidunt voluptatum velit.</p>
-       </div>
+      <section id="section4" class="fourthsection">
+        <img class="sectionimg" src="images/deathcap.jpg" alt="death cap mushroom">
+        <div class="sectiontext">
+          <h3>Amanita virosa</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus labore aliquam consectetur. Laudantium, est ullam placeat, quidem ducimus enim ab reiciendis fugit consectetur quibusdam repellendus cum incidunt voluptatum velit.</p>
+        </div>
       </section>
     </main>
 
     <footer>
-     <h3>Made by B</h3>
+      <h3>Made by B</h3>
     </footer>
   </body>
 </html>
